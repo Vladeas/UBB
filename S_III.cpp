@@ -24,13 +24,13 @@ void inserare(mat x[],mat y,int &k)
 	{
 		for(j=k;j>i;j--)//mut toate elementele de la pozitia respectiva cu un pas la dreapta
 			x[j]=x[j-1];
-		x[i]=y;//inserarea propriu-zisa
+		x[i]=y;//inserarea propriu zisa
 		k++;
 	}
 }
 
 
-void citire(mat x[],int &k)//citesc linia coloana si valoarea in structura data apoi inserand-o in ordine crescatoare in sir
+void citire(mat x[],int &k)//citesc linia, coloana si valoarea in structura data, inserand-o in ordine crescatoare in sir
 {
 	system("cls");
 	k=0;
